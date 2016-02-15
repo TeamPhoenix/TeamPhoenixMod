@@ -1,5 +1,6 @@
 package com.taahthephoenix.teamphoenix;
 
+import com.taahthephoenix.teamphoenix.commands.Command_tpm;
 import net.pravian.bukkitlib.BukkitLib;
 import net.pravian.bukkitlib.command.BukkitCommandHandler;
 import net.pravian.bukkitlib.config.YamlConfig;
@@ -27,6 +28,8 @@ public class TeamPhoenix extends BukkitPlugin {
         config = new YamlConfig(plugin, "config.yml", true);
         config.load();
         LoggerUtils.info(plugin, "Developed by " + plugin.getAuthors() + " version: " + plugin.getVersion() + "enabled!");
+        
+        handler.setCommandLocation(Command_tpm.class.getPackage());
         
     }
     
