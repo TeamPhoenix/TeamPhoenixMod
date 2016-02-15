@@ -8,3 +8,10 @@ server-name: TeamPhoenix
 server-forums: www.example.com/
 
 server-ip: 123.123.123.123:25565
+
+# Server Login MSG Ranks
+
+ranks:
+    admins: 
+        - TaahThePhoenix
+        - falceso
