@@ -3,3 +3,7 @@ main: com.taahthephoenix.teamphoenix.TeamPhoenix
 version: 1.0
 description: The main plugin for "Team Phoenix"
 authors: [TaahThePhoenix]
+commands:
+    tpm:
+        usage: /<command>
+        description: Information about TeamPhoenix
