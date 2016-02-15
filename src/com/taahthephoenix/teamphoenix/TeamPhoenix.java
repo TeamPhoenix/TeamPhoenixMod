@@ -29,6 +29,7 @@ public class TeamPhoenix extends BukkitPlugin {
         config.load();
         LoggerUtils.info(plugin, "Developed by " + plugin.getAuthors() + " version: " + plugin.getVersion() + "enabled!");
         
+        register(new LoginListener());
         handler.setCommandLocation(Command_tpm.class.getPackage());
         
     }
